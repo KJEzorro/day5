@@ -10,8 +10,8 @@ const btn = document.getElementById("btn")
 //
 // })
 
-btn.addEventListener("click", () => {
-    console.log()
+btn.addEventListener("click", (event) => {
+    console.log(event)
 
     const target = document.getElementById("resultDiv") // 자리 할당
 
